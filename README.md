@@ -1,16 +1,38 @@
-### Hi there 👋
+# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hi, I This Is A Bot From Flux Inc.
+<p align="center">
+  <a href="https://t.me/rulebreakerzzz"><img src="https://user-images.githubusercontent.com/77770753/117139498-f081c400-adc9-11eb-9aaf-f895a54ecc67.gif"></a>
+    </p>
+<p align="center">
+    <img
+        width="49%"
+        src="https://github-readme-stats.vercel.app/api?username=SpEcHiDe&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&custom_title=GitHub+Stats"
+    />
+    <img
+        width="49%"
+        src="https://github-readme-streak-stats.herokuapp.com?user=AsmSafone&theme=tokyonight"
+    />
+</p>
 
-<!--
-**workforce-bot4917/workforce-bot4917** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3>
+    
+```python
+​
+import json
+from dataclasses import asdict, dataclass
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+@dataclass
+class Sphinx:
+    languages   : tuple[str, ...] = ("Python", "JS", "HTML", "CSS")
+    ongoing     : tuple[str, ...] = ("PHP", "Telethon")
+
+    def serialize(self):
+        return json.dumps(asdict(self), indent=4)
+slax = Stack()
+print(slax.serialize())
+printf("Talk Is Cheap.Show Me The Code!!")
+
+
+
+```
+</h3>
